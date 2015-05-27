@@ -1,12 +1,15 @@
 language: c
 compiler: gcc
-# Dependencies: GSL, libtiff, FFTW
-
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y libgsl0-dev fftw3-dev libtiff4-dev
-
+- sudo apt-get update -qq
+- sudo apt-get install -y libgsl0-dev fftw3-dev libtiff4-dev
 install: true
-
 script:
-  - make 
+- make
+deploy:
+  provider: releases
+  api_key:
+    secure: aKtdjp0Su0G43cCc54ldUCsK2ejt0RPshDduAj1ygPvu4u4TnizuiYWm/YiQ8E7PVeyY/zgx8WiiKD8ssoZhlhhhgRccg1Y3gCj4dyumZcEg9jMa2w31IEK3DO5EO72Li+snWRoyT1RlZyhEOfIKuiMB9gba3cCWUmPUHbSSjrFhSvqXduSsEe+ByVoLiNbqYulKJFYkKVY9fjmkt7ebZx7iLoPpV39zB9lmJSPnHWRiTtlij2jPdkL5TW+3eKi3X9DeufW5WFWWXCvL3NCkbbEozsZBxLTBtC2TBbmP8007w0mtTAIb1XKAt4H9IkeE69F6tNYqvqnbPvj6g15qVjXACyXap9GvT0bThq0HU63CerI/KhdqA3eFPJ5oUyQ6BxjSNaEjdrBbxiKDdK2+y80Ml5VEbSELydnlwJMSIotiD3K/Kjn381jTAUM44XiTBnP4tGAloZd5MbwR53NviuL0YiLs14aBuibU9h47Itvpc3GLJRBSthSIWMDE+IlhxdP1aXuyzp8m6F4M/Cyn8OlXbZvRWihGh/RvqVHUbjS26YVtpRYZgWyatSL0x0Kc2DzKalP0NXuC8HuQBY9+wDnpl0bgvQ2ZnFYSnsU2JirYnTQ3EUmZ149RZSEbTTFfiOCTjoPZ7Bz664PKhqKm7BjVqwx+A5dHYhmo7YTvMwg=
+  file: Xrecon
+  on:
+    repo: timburrow/xrecon
