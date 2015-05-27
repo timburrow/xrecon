@@ -4,7 +4,7 @@ compiler: gcc
 
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -y libgsl0-dev fftw-dev libtiff5-dev
+  - sudo apt-get install -y libgsl0-dev fftw-dev libtiff4-dev
 
 install: true
 
