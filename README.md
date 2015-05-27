@@ -127,3 +127,6 @@ Martyn Klassen, Robarts Research Institute, University of Western Ontario.
 Alexandr Khrapichev, Department of Physiology, Oxford University.
 Margaret Kritzer, Magnetic Resonance Systems, Agilent Technologies.
 Lana Kaiser, Magnetic Resonance Systems, Agilent Technologies.
+
+##Travis-CI
+[![Build Status](https://travis-ci.org/timburrow/xrecon.svg?branch=master)](https://travis-ci.org/timburrow/xrecon)
