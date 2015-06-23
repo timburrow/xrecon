@@ -29,6 +29,8 @@ Xrecon is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
 A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
+##Travis-CI
+[![Build Status](https://travis-ci.org/timburrow/xrecon.svg?branch=master)](https://travis-ci.org/timburrow/xrecon)
 
 ##Installation
 
@@ -112,12 +114,12 @@ nifti1.h        NIFTI-1 header
 
 Paul Kinchesh,
 Agilent Technologies, 6 Mead Road, Oxford Industrial Park, Oxford OX5 1QU, UK
-paul.kinchesh@agilent.com
+~~paul.kinchesh@agilent.com~~
 
 
 ##Bug Reports
 
-Paul Kinchesh, paul.kinchesh@agilent.com
+~~Paul Kinchesh, paul.kinchesh@agilent.com~~
 
 
 ##Contributors
@@ -128,5 +130,4 @@ Alexandr Khrapichev, Department of Physiology, Oxford University.
 Margaret Kritzer, Magnetic Resonance Systems, Agilent Technologies.
 Lana Kaiser, Magnetic Resonance Systems, Agilent Technologies.
 
-##Travis-CI
-[![Build Status](https://travis-ci.org/timburrow/xrecon.svg?branch=master)](https://travis-ci.org/timburrow/xrecon)
+
